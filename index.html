@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Прайс | SteppeVision</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.section {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+h1 {
+    color: #0b3d2e;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #ffffff;
+    border: 1px solid #0b3d2e;
+    border-radius: 16px;
+    padding: 30px;
+    width: 280px;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.card h2 {
+    color: #0b3d2e;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #0b3d2e;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #145c44;
+}
+</style>
+</head>
+
+<body>
+
+<div class="section">
+    <h1>Наши тарифы</h1>
+    <p class="subtitle">
+        Стоимость рассчитывается индивидуально.  
+        Свяжитесь с нами, чтобы получить предложение.
+    </p>
+
+    <div class="cards">
+
+        <div class="card">
+            <h2>Стандарт</h2>
+            <p>Подходит для небольших фермерских проектов и старта.</p>
+            <button class="btn" onclick="openChat()">Связаться с нами</button>
+        </div>
+
+        <div class="card">
+            <h2>Премиум</h2>
+            <p>Для масштабных проектов и расширенного функционала.</p>
+            <button class="btn" onclick="openChat()">Связаться с нами</button>
+        </div>
+
+        <div class="card">
+            <h2>Индивидуально</h2>
+            <p>Кастомные решения под ваш бизнес.</p>
+            <button class="btn" onclick="openChat()">Связаться с нами</button>
+        </div>
+
+    </div>
+</div>
+
+<script>
+function openChat() {
+    window.open(
+        "https://tawk.to/chat/699f03f417d8e71c46df4f61/1jiaiet4c",
+        "_blank"
+    );
+}
+</script>
+
+</body>
+</html>
